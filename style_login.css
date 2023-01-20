@@ -1,0 +1,147 @@
+/* 
+* {
+   margin: 0;
+}
+
+.containerlogin {
+   display: flex;
+   height: 40px;
+   flex-direction: column;
+} 
+
+h2 {
+  
+  background-color: rgb(250, 98, 43);
+}
+
+body {
+   display: flex;
+   position: auto;
+   width: auto;
+   height: auto;
+   background: linear-gradient(90deg, #526, rgb(116, 116, 136));
+}
+
+*/
+
+body{
+   width: 100vw;
+   height: 100vh;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   background: linear-gradient(90deg, #526, rgb(116, 116, 136));
+   flex-direction: row;
+   justify-content: center;
+
+}
+
+.containerlogin{
+   display: flex;
+   flex-direction: column;
+   background-color: rgba(128, 255, 0, 0.685);
+   padding: 20px;
+   border-radius: 2%;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   width: 40vw;
+   height: 58vh;
+}
+
+.logo{
+   height: 65px;
+   width: 65px;
+   align-items: flex-end;
+   animation: rotate 20s linear infinite;
+  
+}
+
+
+@keyframes rotate {
+   0% {
+     transform: rotate(0);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+
+
+ .containercadastro{
+   display: flex;
+   flex-direction: column;
+  
+   background-color: rgba(128, 255, 0, 0.685);
+   padding: 20px;
+   border-radius: 2%;
+   align-items: center;
+   justify-content: center;
+   width: 40vw;
+   height: 90vh;
+   font-size: 1.1rem;
+}
+
+.voltar{
+   height: 40px;
+   width: 40px;
+   align-items: flex-end;
+   margin-left: 10px;
+}
+
+.containerfundo h1 {
+   font-family: 'Mukta', sans-serif;
+   font-family: 'Permanent Marker', cursive;
+   letter-spacing: 4px;
+   margin-left: 20px;
+   font-size: 3rem;
+   margin: 10px 20px 5px;
+}
+
+.containerfundo h2 {
+   font-family: 'Mukta', sans-serif;
+   font-family: 'Permanent Marker', cursive;
+   letter-spacing: 4px;
+   margin-left: 120px;
+   margin-top: 0px;
+   font-size: 1rem;
+
+}
+
+input {
+   border: 0.1px solid black;
+   width: 400px;
+   height: 30px;
+   bottom: unset;
+   font-size: 1.3rem;
+   background-color: rgba(255, 255, 255, 0.351);
+   outline: none;
+}
+
+select {
+   border: 0.1px solid black;
+   width: 405px;
+   height: 30px;
+   bottom: unset;
+   font-size: 1.3rem;
+   background-color: rgba(255, 255, 255, 0.351);
+}
+
+.botao {
+   width: 405px;
+   height: 30px;
+   border: none;
+   background-color: rgba(71, 116, 26, 0.685);
+   color: white;
+   cursor: pointer;
+   border-radius: 10px;
+}
+
+.botao:hover{
+   background-color:  rgb(128, 53, 153)
+}
+
+.botao:active{
+   background-color:  rgb(80, 33, 95)
+}
+
